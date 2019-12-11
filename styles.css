@@ -1,0 +1,135 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #2a4493;
+}
+
+/* NAVBAR CONTENT
+-------------------------------------------------- */
+
+.navbar-brand {
+  font-weight: 650;
+  font-size:1.5rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+/* JUMBOTRON CONTENT
+-------------------------------------------------- */
+
+.jumbotron {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  z-index: 101;
+}
+
+.jumbotron .display-3 {
+  font-size: 3.5rem;
+  font-weight: 650;
+  color: white;
+}
+
+.desc {
+  color:white;
+  font-size: 1.75rem;
+}
+
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:auto;
+  height:auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+}
+
+.jumbotron .container {
+  padding-top: 3.5rem;
+  padding-bottom: 3rem;
+  z-index: 2;
+  position: relative;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the jumbotron */
+
+/* Customize Display-4 text in Marketing */
+
+.marketing .display-4 {
+  font-weight: 600;
+
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
