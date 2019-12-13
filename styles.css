@@ -16,6 +16,10 @@ body {
     background-color: #2a4493;
 }
 
+.card-img-top {
+  vertical-align: unset;
+}
+
 /* NAVBAR CONTENT
 -------------------------------------------------- */
 
