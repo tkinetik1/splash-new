@@ -45,7 +45,7 @@ body {
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #007bff;
+  background-color: white;
   z-index: 101;
 }
 
@@ -55,11 +55,11 @@ body {
 .jumbotron .display-3 {
   font-size: 3.5rem;
   font-weight: 650;
-  color: white;
+  color: black;
 }
 
 .desc {
-  color:white;
+  color:black;
   font-size: 1.75rem;
 }
 
@@ -84,20 +84,6 @@ body {
   padding-bottom: 3rem;
   z-index: 2;
   position: relative;
-}
-
-/*COVER PAGE GALLERY*/
-
-.cover-container {
-  max-width: 42em;
-}
-
-.cover {
-  padding: 0 1.5rem;
-}
-.cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
 }
 
 
